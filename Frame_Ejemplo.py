@@ -5,7 +5,7 @@ window = Tk()
 window.title("FRAMES")
 window.iconbitmap('Calculator_512.ico')
 
-frame = LabelFrame(window, text="ESTO ES UN FRAME, UN WARFRAME", padx=50, pady=50)
+frame = Frame(window, padx=50, pady=50)
 frame.pack(padx=10, pady=10)
 
 b = Button(frame, text="Warframe: Ninjas Play Free")
