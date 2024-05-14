@@ -61,9 +61,14 @@ window.rowconfigure(6, weight= 200)
 window.rowconfigure(7, weight= 200)
 window.rowconfigure(8, weight= 200)
 #----------------------------------------------------------------------
-
-#----------------------------------------------------------------------
-
+txt1 = Label(window, text="TEXTO\n DE\n PRUEBA", background="white")
+txt2 = Label(window, text="TEXTO\n DE\n PRUEBA", background="white")
+txt3 = Label(window, text="TEXTO\n DE\n PRUEBA", background="white")
+txt4 = Label(window, text="TEXTO\n DE\n PRUEBA", background="white")
+txt5 = Label(window, text="TEXTO\n DE\n PRUEBA", background="white")
+txt6 = Label(window, text="TEXTO\n DE\n PRUEBA", background="white")
+txt7 = Label(window, text="TEXTO\n DE\n PRUEBA", background="white")
+txt8 = Label(window, text="TEXTO\n DE\n PRUEBA", background="white")
 #----------------------------------------------------------------------
 boton1 = Button(window, text="Ingresar", background="orange", activebackground="yellow")
 boton2 = Button(window, text="Ingresar", background="orange", activebackground="yellow")
@@ -123,6 +128,14 @@ img6.grid(row=6, column=1)
 img7.grid(row=6, column=2)
 img8.grid(row=6, column=3)
 #----------------------------------------------------------------------
+txt1.grid(row=3, column=0)
+txt2.grid(row=3, column=1)
+txt3.grid(row=3, column=2)
+txt4.grid(row=3, column=3)
+txt5.grid(row=7, column=0)
+txt6.grid(row=7, column=1)
+txt7.grid(row=7, column=2)
+txt8.grid(row=7, column=3)
 boton1.grid(row=4, column=0)
 boton2.grid(row=4, column=1)
 boton3.grid(row=4, column=2)
